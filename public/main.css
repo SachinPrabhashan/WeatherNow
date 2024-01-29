@@ -1,0 +1,168 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 7%;
+    background-image: url('img001.jpg');
+}
+
+div.dev-search {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.dev-search h1 {
+    text-align: center;
+    font-weight: 900;
+    color: rgb(70, 70, 70);
+}
+
+.dev-search button {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 1em;
+}
+
+.dev-search input{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    font-size: large;
+}
+
+div.w-result {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+    margin-top: 2em;
+    padding: 1em;
+
+    width: 50%;
+    background: rgba(138, 91, 48, 0.25);
+
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 25px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 10px 0 rgba(31, 38, 135, 0.37);
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+}
+
+div.w-result:hover{
+    transform: scale(1.02);
+    transition: 0.3s ease-in-out;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+
+
+
+div.powered {
+    font-size: small;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    display: flex;
+}
+
+.w-result h2{
+    font-weight: 700;
+}
+
+.form-control{
+    border-radius: 25px;
+}
+
+.btn{
+    border-radius: 25px;
+}
+
+
+/* Styles for tablets */
+@media only screen and (min-width: 600px) and (max-width: 1023px) {
+    body {
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding-top: 10%;
+        background-image: url('img001.jpg');
+    }
+
+    .dev-search input{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 350px;
+        font-size: large;
+    }
+
+    div.w-result {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        text-align: center;
+        margin-top: 2em;
+        padding: 1em;
+
+        width: 75%;
+        background: rgba(138, 91, 48, 0.25);
+
+        backdrop-filter: blur(4px);
+        -webkit-backdrop-filter: blur(4px);
+        border-radius: 25px;
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        box-shadow: 0 8px 10px 0 rgba(31, 38, 135, 0.37);
+        transition: transform 0.3s ease-in-out;
+        transform-origin: center center;
+    }
+
+    div.w-result:hover{
+        transform: scale(1.02);
+        transition: 0.3s ease-in-out;
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    }
+  }
+
+  /* Styles for smartphones */
+  @media only screen and (min-width: 300px) and (max-width: 599px) {
+    body {
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding-top: 15%;
+        background-image: url('img001.jpg');
+    }
+
+    .dev-search input{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 250px;
+        font-size: large;
+    }
+
+    div.w-result {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        text-align: center;
+        margin-top: 2em;
+        padding: 1em;
+
+        width: 75%;
+        background: rgba(138, 91, 48, 0.25);
+
+        backdrop-filter: blur(4px);
+        -webkit-backdrop-filter: blur(4px);
+        border-radius: 25px;
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        box-shadow: 0 8px 10px 0 rgba(31, 38, 135, 0.37);
+        transition: transform 0.3s ease-in-out;
+        transform-origin: center center;
+    }
+
+    div.w-result:hover{
+        transform: scale(1.02);
+        transition: 0.3s ease-in-out;
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    }
+  }
